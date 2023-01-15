@@ -1,0 +1,22 @@
+{
+  "name": "verification-bot",
+  "version": "1.0.0",
+  "description": "Welcome bot for a discord server",
+  "main": "index.js",
+  "scripts": {
+	"start": "node index.js",
+	"deploy": "node deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "bot"
+  ],
+  "author": "LeoTheLemon",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "pm2": "^5.2.2"
+  }
+}
